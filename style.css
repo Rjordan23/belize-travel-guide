@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;;
+}
+
+/* //////////////////// */
+#hero-img {
+    background: url('img/bg1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 115vh;
+    position: relative;
+}
+
+#events {
+    color: #fff;
+    line-height: 2em;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-weight: 800;
+}
+
+#title-section {
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+}
+
+#title-section h4 {
+    margin-left: 145px;
+}
+
+#title-section h4 span {
+    display: inline-block;
+    position: relative;
+}
+
+#title-section h4 span:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-top: 1.5px solid #fff;
+    bottom: 0%;
+    right: 0;
+    width: 130px;
+}
+
+#title-section h4 span:after {
+    margin-right: 10px;
+}
+
+#title-section h1 {
+    font-size: 4rem;
+}
+
+#title-section p {
+    width: 40%;
+}
+
+/* ///////////////////// */
+#about {
+    height: 600px;
+    position: relative;
+}
+
+#nature {
+    position: absolute;
+    right: 5%;
+    top: -15%;
+    background-color: #aaa;
+    width: 60%;
+    height: 100%;
+    box-shadow: 1px 5px 30px 0 rgba(0, 0, 0, .5);
+}
+
+#nature #nature-left {
+    width: 50%;
+    height: 100%;
+    background: #fcfcfc;
+    display: inline-block;
+}
+
+#nature #nature-left #mountains {
+    width: 100%;
+    height: 60%;
+    background: url('img/mountains.png');
+    background-size: cover;
+    opacity: .5;
+    box-shadow: inset -2px -10px 30px 30px rgba(255, 255, 255, 1);
+}
+
+#nature #nature-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #fcfcfc;
+}
+
+#nature #nature-right hr {
+    width: 15%;
+    margin: 100px 0 0 20px;
+}
+
+#nature #nature-right h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+#nature #nature-right p {
+    margin: 100px 0 0 20px;
+    width: 80%;
+}
+
+#nature #nature-right button {
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #bbb;
+    margin: 60px 0 0 20px;
+}
+
+#blue-hole {
+    background: url('img/blue-hole.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 70%;
+    width: 45%;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    box-shadow: -3px 3px 60px 2px rgba(0, 0, 0, .5);
+}
+
+#blue-hole #blue-txt h1 {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, .3);
+    color: transparent;
+    margin: 107px 0 0 20px;
+    font-size: .9rem;
+}
+
+#blue-hole #blue-sidebar {
+    width: 15%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    float: right;
+}
+
+#blue-hole ul {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#blue-hole ul li {
+    margin: 40px 0 20px;
+}
+
+#blue-hole a {
+    color: #fff;
+    font-size: 2.7rem;
+    opacity: .9;
+}
+
+
+
+
+
+
+/* ////////////////// */
+#adventure {
+    height: 600px;
+    margin-top: 100px;
+    background: #fff;
+    background: red;
+    color: transparent;
+}
+
+#adventure #jungle {
+    background: url('img/jungle.jpg');
+    width: 50%;
+    height: 80%;
+
+}
+
+#adventure #jungle h1 {
+    font-weight: 1000;
+    -webkit-text-fill-color: transparent;
+    font-size: 30em;
+    text-align: center;
+    background: #fff;
+    /* color: transparent; */
+    /* background: url('img/jungle.jpg'); */
+}
+
+
+
+
+
+
