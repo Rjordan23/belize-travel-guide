@@ -7,6 +7,14 @@ li {
     list-style: none;;
 }
 
+button {
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #bbb;
+    margin: 60px 0 0 20px;
+}
+
 /* //////////////////// */
 #hero-img {
     background: url('img/bg1.jpeg');
@@ -61,6 +69,7 @@ li {
 
 #title-section p {
     width: 40%;
+    line-height: 1.66em;
 }
 
 /* ///////////////////// */
@@ -105,6 +114,7 @@ li {
 #nature #nature-right hr {
     width: 15%;
     margin: 100px 0 0 20px;
+    opacity: .5;
 }
 
 #nature #nature-right h1 {
@@ -115,40 +125,27 @@ li {
 #nature #nature-right p {
     margin: 100px 0 0 20px;
     width: 80%;
-}
-
-#nature #nature-right button {
-    padding: 15px 25px;
-    border-radius: 50px;
-    background: transparent;
-    border: 1px solid #bbb;
-    margin: 60px 0 0 20px;
+    line-height: 1.6em;
 }
 
 #blue-hole {
     background: url('img/blue-hole.jpg');
     background-size: cover;
     background-position: 100% 100%;
-    height: 70%;
-    width: 45%;
+    height: 80%;
+    width: 50%;
     position: absolute;
-    left: 15%;
+    left: 12%;
     top: 40%;
-    box-shadow: -3px 3px 60px 2px rgba(0, 0, 0, .5);
-}
-
-#blue-hole #blue-txt h1 {
-    -webkit-text-stroke: 1px rgba(255, 255, 255, .3);
-    color: transparent;
-    margin: 107px 0 0 20px;
-    font-size: .9rem;
+    box-shadow: -4px 1px 10px 2px rgba(0, 0, 0, .5);
 }
 
 #blue-hole #blue-sidebar {
     width: 15%;
     height: 100%;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .4);
     float: right;
+    box-shadow: inset -10px -80px 100px 2px rgba(0, 0, 0, .6), -5px 5px 25px 2px rgba(0, 0, 0, 1);;
 }
 
 #blue-hole ul {
@@ -157,48 +154,293 @@ li {
 }
 
 #blue-hole ul li {
-    margin: 40px 0 20px;
+    margin: 30px 0 30px;
 }
 
-#blue-hole a {
-    color: #fff;
-    font-size: 2.7rem;
-    opacity: .9;
+#blue-hole img {
+    width: 65%;
+    opacity: .4;
 }
 
-
-
-
+#blue-hole img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+    cursor: pointer;
+}
 
 
 /* ////////////////// */
 #adventure {
-    height: 600px;
-    margin-top: 100px;
+    height: 450px;
+    padding-top: 200px;
     background: #fff;
-    background: red;
-    color: transparent;
 }
 
 #adventure #jungle {
-    background: url('img/jungle.jpg');
+    width: 30%;
+    height: 80%;
+    text-align: center;
+    display: inline-block;
+}
+
+#adventure #jungle img {
+    width: 90%;
+    margin-left: 60px;
+    opacity: .9;
+}
+
+#adventure #jungle-txt {
+    display: inline-block;
+    width: 65%;
+    float: right;
+    height: 80%;
+}
+
+#adventure #jungle-txt hr {
+    width: 7%;
+    opacity: .5;
+    margin-top: 20px;
+}
+
+#adventure #jungle-txt h1 {
+    font-size: 3rem;
+}
+
+#adventure #jungle-txt p {
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+    line-height: 1.6em;
+}
+
+#adventure #jungle-txt-right {
+    float: right;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+/* ////////////////////////////// */
+
+
+
+/* /////////////////////////////// */
+
+
+
+/* //////////////////// */
+#icon-bar {
+    width: 100%;
+    height: 80px;
+}
+
+#icon-bar ul {
+    text-align: center;
+}
+
+#icon-bar ul li {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+#icon-bar img {
+    width: 75px;
+    opacity: 1;
+}
+
+#icon-txt li {
+    padding: 0 20px 0 19px;
+}
+
+
+
+/* //////////////// */
+#random-txt {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#bold-txt {
+    font-weight: 600;
+    width: 20%;
+    text-align: right;
+    display: inline-block;
+    line-height: 1.4em;
+}
+
+#bold-txt span {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: blue;
+}
+
+#text-one {
+    display: inline-block;
+    margin-left: 60px;
+    width: 20%;
+    line-height: 1.9em;
+}
+
+#text-two {
+    display: inline-block;
+    margin-left: 60px;
+    width: 20%;
+    line-height: 1.9em;
+}
+
+
+/* ////////////// */
+#ruins {
+    height: 1300px;
+    margin-top: 80px;
+    background: url('img/ruins3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+#exploration {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    background: rgba(0, 0, 0, .5);
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 1);
+    border-top: 1px solid rgba(0, 0, 0, .6);
+}
+
+#exploration hr {
+    background: #000;
+    height: 1px;
+    box-shadow: -2px -2px 10px rgba(0, 0, 0, 1); 
+}
+
+#exploration h1 {
+    font-size: 3em;
+    margin: 20px 0 0 30px;
+}
+
+#exploration p {
+    width: 30%;
+    margin: 10px 0 0 30px;
+    line-height: 1.4em;
+    font-size: 1.2rem;
+}
+
+#exploration button {
+    color: #fff;
+    margin: 30px 0 20px 30px;
+    border: 1.5px solid #fff;
+}
+
+/* ///////////////////// */
+#stay {
+    height: 600px;
+    position: relative;
+}
+
+#lodging {
+    position: absolute;
+    left: 5%;
+    top: 10%;
     width: 50%;
     height: 80%;
-
+    box-shadow: 1px 5px 30px 0 rgba(0, 0, 0, .5);
+    z-index: 1;
 }
 
-#adventure #jungle h1 {
-    font-weight: 1000;
-    -webkit-text-fill-color: transparent;
-    font-size: 30em;
+#lodging #lodging-left {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-color: #fcfcfc;
+}
+
+#lodging #lodging-left hr {
+    width: 15%;
+    margin: 30px 0 0 30px;
+    opacity: .5;
+}
+
+#lodging #lodging-left h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+#lodging #lodging-left p {
+    margin: 20px 0 0 20px;
+    width: 80%;
+    line-height: 1.6em;
+}
+
+#lodging #lodging-left button {
+    margin-top: 30px;
+}
+
+#lodging #lodging-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: inline-block;
+    background-color: #fff;
+    z-index: 4;
+}
+
+#lodging #lodging-right #artwork {
+    width: 100%;
+    height: 70%;
+    background: url('img/mayan-art.png') no-repeat;
+    background-size: 98%;
+}
+
+#hotel {
+    background: url('img/bg9.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 70%;
+    width: 45%;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    box-shadow: -4px 1px 10px 2px rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+#flag {
+    background: url('img/flag.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 99%;
+    opacity: .08;
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    z-index: 0;
+}
+
+/* /////////////////////// */
+#img-gallery {
+    margin-top: 122px;
+    height: 600px;
+}
+
+#img-gallery hr {
+}
+
+#img-gallery h1 {
     text-align: center;
-    background: #fff;
-    /* color: transparent; */
-    /* background: url('img/jungle.jpg'); */
+    padding-top: 60px;
+
 }
 
 
-
-
+/* //////////////// */
+footer {
+    background: url('img/bg6.jpg');
+    background-position: bottom;
+    height:700px;
+}
 
 
