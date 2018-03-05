@@ -70,8 +70,15 @@
     </section>
 
     <!-- Slider -->
-    <div>
-
+    <div class="slide-show">
+        <img class="slides" src="img/slider0.jpeg" alt="">
+        <img class="slides" src="img/slider1.jpeg" alt="">
+        <img class="slides" src="img/slider3.jpg" alt="">
+        <img class="slides" src="img/slider4.jpeg" alt="">
+        <img class="slides" src="img/slider5.jpg" alt="">
+        <img class="slides" src="img/slider7.jpg" alt="">
+        <button class="btn-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="btn-right" onclick="plusDivs(1)">&#10095;</button>
     </div>
 
     <div id="icon-bar">
@@ -107,11 +114,9 @@
 
     <div id="ruins">
         <div id="exploration">
-            <!-- <hr> -->
             <h1>Travel Back In Time</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto repudiandae in at eos totam corporis porro! Reiciendis veritatis id nesciunt.</p>
             <button>LEARN MORE</button>
-            <!-- <hr> -->
         </div>
     </div>
 
@@ -136,14 +141,39 @@
 
     <div id="img-gallery">
         <div>
-            <h1>Lorem Ipsum</h1>
+            <h1>Have Some Fun</h1>
         </div>
+            <div id="left-img-box">
+            </div>
+            <div id="mid-img-box">
+                <div id="mid-top">
+                </div>
+                <div id="mid-btm">
+                </div>
+            </div>
+            <div id="right-img-box">
+            </div>
     </div>
 
     <footer>
-        
+        <div id="text-box">
+            <h1>Start Your Adventure Today</h1>
+            <h4>GUIDE TO CONQUER A LAND OF AMAZEMENT</h4>
+            <button class="hvr-radial-in" type="submit">ENTER</button>
+            <div id="social-media">
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>Copyright &copy; Ramsey Jordan 2018</p>
+        </div>
     </footer>
 
-    
+<script src="js/main.js"></script>
 </body>
 </html>
