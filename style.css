@@ -13,7 +13,7 @@ button {
     border-radius: 50px;
     background: transparent;
     border: 1.5px solid #bbb;
-    margin: 60px 0 0 20px;
+    margin: 30px 0 0 20px;
 }
 
 button:hover {
@@ -232,7 +232,7 @@ button:hover {
 .slide-show {
     position: relative;
     background: url('img/bg3.jpg');
-    background-size: cover;
+    background-size: contain;
     height: 600px;
 }
 
@@ -289,7 +289,6 @@ button:hover {
 #icon-txt li {
     padding: 0 20px 0 19px;
 }
-
 
 
 /* //////////////// */
@@ -393,6 +392,7 @@ button:hover {
     height: 100%;
     display: inline-block;
     background-color: #fcfcfc;
+    padding-bottom: 10px;
 }
 
 #lodging #lodging-left hr {
@@ -413,7 +413,7 @@ button:hover {
 }
 
 #lodging #lodging-left button {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #lodging #lodging-right {
@@ -552,10 +552,6 @@ footer {
 
 #social-media {
     margin-top: 30px;
-}
-
-#social-media ul {
-
 }
 
 #social-media ul li {
