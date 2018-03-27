@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border-style: border-box;
     font-family: 'Alef', sans-serif;
 }
 
@@ -486,6 +487,11 @@ button:hover {
     background-size: cover;
     display: inline-block;
 }
+
+/* #left-img-box p {
+    display: inline-block;
+    width: 20%;
+} */
 
 #mid-img-box {
     height: 93%;
